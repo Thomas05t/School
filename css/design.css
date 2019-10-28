@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5
   padding: 10px;
 }
 
-#menuitem
+.menuitem
 {
   display: inline;
   padding: 10px;
@@ -45,27 +45,27 @@ h1, h2, h3, h4, h5
   list-style-type: none;
 }
 
-#menuitem:hover
+.menuitem:hover
 {
   background: rgb(170, 46, 46);
 }
 
-#menuitem a:link
+.menuitem a:link
 {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
-#menuitem a:visited
+.menuitem a:visited
 {
   color: white;
 }
-#menuitem a:hover
+.menuitem a:hover
 {
   color: rgb(180, 180, 180);
 }
-#menuitem a:active
+.menuitem a:active
 {
   color: rgb(136, 53, 53);
 }
